@@ -49,7 +49,9 @@ The county with the largest number of votes (306,055) is shown to be Denver.
 
 ## Election Audit Summary
 
-This election script that was generated to generate election results from a file. The file contained muliple columns, with the columns of interest being "County" and "candidate" in the case of this specific election a total of (3) counties and (3) candidates were contained int the election_results.csv file. By defining the candadate_options and county_options as lists and the candidate_votes and county_votes as dictionaries as seen in the below code; this script can easily be utilized on both additional candidates and counties.
+This election script that was generated to generate election results from a file. The file contained multiple columns, with the columns of interest being "County" and "Candidate" in the case of this specific election a total of (3) counties and (3) candidates were contained in the election_results.csv file. By defining the candidate_options and county_options as lists and the candidate_votes and county_votes as dictionaries (as seen in the below code) this script can easily be utilized for both additional candidates and counties.
+
+![code](https://github.com/y2k600f4/Election_Analysis/blob/main/analysis/code.png)
 
 
 
