@@ -2,7 +2,7 @@
 
 ## Overview of the Election Audit
 
-The purpose of the election audit was to analyze the results of this election and provide results to the election commission. Audit results  include both canddate and county results. Candidate results include the total votes in the election, each candidate's total votes and percentage of votes and the winner of the election that includes winning vote count and winning percentage of vote. County results that were generated include the voter turnout for each county, the percentage of votes from each county out of the total count and the county with the highest turnout.  In addition the Python code was used to generate the results in both the terminal output and saved into a text file.
+The purpose of the election audit was to analyze the results of this election and provide results to the election commission. Audit results  include both canddate and county results. Candidate results include the total votes in the election, each candidate's total votes and percentage of votes and the winner of the election that includes winning vote count and winning percentage of vote. County results that were generated include the voter turnout for each county, the percentage of votes from each county out of the total count and the county with the highest turnout.  In addition Python code was used to generate the results in both the terminal output and saved into a text file.
 
 ## Election Audit Results	
 
@@ -52,6 +52,8 @@ The county with the largest number of votes (306,055) is shown to be Denver.
 This election script that was generated to generate election results from a file. The file contained multiple columns, with the columns of interest being "County" and "Candidate" in the case of this specific election a total of (3) counties and (3) candidates were contained in the election_results.csv file. By defining the candidate_options and county_options as lists and the candidate_votes and county_votes as dictionaries (as seen in the below code) this script can easily be utilized for both additional candidates and counties.
 
 ![code](https://github.com/y2k600f4/Election_Analysis/blob/main/analysis/code.png)
+
+This script can easily be expanded to analyze addtitional election results by adding additional columns of data in the election_results.csv file such as additional locations such as town or city within the county or even higher levels such as state. The additional items would be extracted from each row (e.g. town, city, state) and adding additional if statements and for loops following the same structure in this exercise can be added for additional analysis as needed.
 
 
 
