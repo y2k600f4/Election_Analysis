@@ -8,7 +8,7 @@ The purpose of the election audit is to further analyze the results of this elec
 
 The Election results located in the resources folder (election_results.csv) along with python code utilizing for loops, conditional statements and logical operators were used to complete the audit as seen below (terminal output) in addition to the output text file located in the analysis folder (election_results.txt).
 
-![Election_Results](https://github.com/y2k600f4/Election-analysis/blob/main/analysis/election_results.png)
+![Election_Results](https://github.com/y2k600f4/Election-analysis/blob/main/analysis/election_analysis.png)
 
 ### Voter turnout for each county
 
